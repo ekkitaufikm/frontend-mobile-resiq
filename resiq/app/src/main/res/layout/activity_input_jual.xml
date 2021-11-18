@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru3"
+    android:orientation="vertical"
+    tools:context=".input_jual">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/biru1"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:textSize="25dp"
+        android:text="resiq.id"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/back" />
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="108dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:src="@drawable/jualan" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:text="JUAL PLASTIK"
+        android:textAlignment="center"
+        android:textColor="@color/biru1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="35dp"
+        android:text="Jenis Plastik"
+        android:textColor="@color/biru2" />
+
+    <EditText
+        android:id="@+id/xnis"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:hint="Pilih Plastik" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/biru2"
+        android:text="Masukkan Berat" />
+
+    <EditText
+        android:id="@+id/xnama"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_height="47dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="right"
+        android:layout_marginRight="60dp"
+        android:textSize="22dp"
+        android:layout_marginTop="-41dp"
+        android:textColor="@color/biru2"
+        android:text="Kg" />
+
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:gravity="right"
+        android:layout_marginHorizontal="50dp"
+        android:text="Pendapatan"
+        android:textColor="@color/biru1"/>
+    <TextView
+        android:layout_width="309dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="-6dp"
+        android:gravity="right"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="50dp"
+        android:textColor="@color/ijo"
+        android:text="Rp 10.000" />
+    <Button
+        android:id="@+id/tblkirim"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="50dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:onClick="clickDashboard"
+        android:text="Jual" />
+
+</LinearLayout>
